@@ -1,3 +1,8 @@
+'''
+The matrix's transpose is flipped over its main diagonal, switching the matrix's row and column indices.
+Given an integer array, return the transpose of matrix.
+
+'''
 n = 4
 
 def transpose(MatrixA, MatrixB):

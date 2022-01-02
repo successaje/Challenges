@@ -1,3 +1,8 @@
+'''
+Given an array of integers and a value, determine if there are any three integers in the array whose sum equals the given value.
+Consider this array and the target sums.
+'''
+
 def test(List, target):
     for i in range(0, len(List)-2):
         for j in range(i+1, len(List)-1):
